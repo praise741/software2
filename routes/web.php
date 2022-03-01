@@ -4,7 +4,7 @@ use App\Http\Controllers\CrateController;
 use App\Http\Controllers\home;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\SalesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::resource('products', ProductController::class);
+Route::resource('sales', SalesController::class);
 Route::post('/posts', [ProductController::class, 'store'])->middleware(['auth']);
 Route::get('/product', [ProductController::class, 'index'])->middleware(['auth']);
 Route::get('/product.create', function(){

@@ -19,6 +19,7 @@
     <link href="{{ asset('css/plugins/jasny/jasny-bootstrap.min.css') }}" rel="stylesheet">
 
     <link href="{{ asset('css/plugins/nouslider/jquery.nouislider.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/plugins/select2/select2.min.css') }}" rel="stylesheet">
 
     \
 

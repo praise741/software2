@@ -21,17 +21,26 @@
                 </div>
             </li>
             <li>
-                <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
+                <a href="/dashboard"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse">
                     <li><a href="/dashboard">home</a></li>
 
                 </ul>
             </li>
             <li>
-                <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Products</span> <span class="fa arrow"></span></a>
+                <a href="/products/create"><i class="fa fa-th-large"></i> <span class="nav-label">Products</span> <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse">
                     <li><a href="/products/create">create</a></li>
                     <li><a href="/products">view</a></li>
+
+
+                </ul>
+            </li>
+            <li>
+                <a href="/sales/create"><i class="fa fa-th-large"></i> <span class="nav-label">Sales</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="/sales/create">create</a></li>
+                    <li><a href="/sales">view</a></li>
 
 
                 </ul>
